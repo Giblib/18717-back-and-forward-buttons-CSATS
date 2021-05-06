@@ -1,12 +1,12 @@
-#backButton img{
-  margin-top: -7px;
-  height: 45px;
-  width: 45px;
+#backButton img {
+  margin-top: 5px;
+  font-size: 1.9em;
+  width: 1em;
   cursor: pointer;
 }
-#forwardButton img{
-  margin-top: -7px;
-  height: 45px;
-  width: 45px;
+#forwardButton img {
+  margin-top: 5px;
+  font-size: 1.9em;
+  width: 1em;
   cursor: pointer;
 }
