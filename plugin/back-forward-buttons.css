@@ -1,11 +1,12 @@
 #backButton img {
-  margin-top: 5px;
+  margin-top: 6px;
   font-size: 1.9em;
   width: 1em;
   cursor: pointer;
+  margin-right: 0.5em;
 }
 #forwardButton img {
-  margin-top: 5px;
+  margin-top: 6px;
   font-size: 1.9em;
   width: 1em;
   cursor: pointer;
