@@ -15,7 +15,7 @@ videojs.registerPlugin('backForwardButtons', function() {
   // +++ Assign properties to elements and assign to parents +++
   newImageBB.setAttribute('src', 'https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/Backward_30-01.svg');
   newElementBB.appendChild(newImageBB);
-  newImageFB.setAttribute('src', 'https://https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/Forward_30-01.svg');
+  newImageFB.setAttribute('src', 'https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/Forward_30-01.svg');
   newElementFB.appendChild(newImageFB);
 
   // +++ Get controlbar and insert elements +++
