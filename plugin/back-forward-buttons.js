@@ -1,6 +1,7 @@
 videojs.registerPlugin('backForwardButtons', function() {
   var myPlayer = this,
-      jumpAmount = 30,
+      backJumpAmount = 10,
+      forwardJumpAmount = 30,
       controlBar,
       insertBeforeNode,
       newElementBB = document.createElement('div'),
@@ -31,7 +32,7 @@ videojs.registerPlugin('backForwardButtons', function() {
   // Back button logic, don't jump to negative times
   newElementBB.addEventListener('click', function () {
     var newTime,
-        rewindAmt = jumpAmount,
+        rewindAmt = backJumpAmount,
         videoTime = myPlayer.currentTime();
     if (videoTime >= rewindAmt) {
       newTime = videoTime - rewindAmt;
@@ -44,7 +45,7 @@ videojs.registerPlugin('backForwardButtons', function() {
   // Forward button logic, don't jump past the duration
   newElementFB.addEventListener('click', function () {
     var newTime,
-        forwardAmt = jumpAmount,
+        forwardAmt = forwardJumpAmount,
         videoTime = myPlayer.currentTime(),
         videoDuration = myPlayer.duration();
     if (videoTime + forwardAmt <= videoDuration) {
