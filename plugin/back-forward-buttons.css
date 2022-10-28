@@ -49,7 +49,7 @@
 }
 .video-js .vjs-big-play-button span.vjs-icon-placeholder {
   opacity: 0.4;
-  content: url('/img/video-big-play-button.svg');
+  content: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-big-play-button.svg');
 }
 .video-js .vjs-big-play-button span.vjs-icon-placeholder:hover {
   opacity: 0.8;
@@ -87,19 +87,19 @@
 }
 .video-js button.vjs-play-control.vjs-playing > span.vjs-icon-placeholder::before {
   content: " " !important;
-  background-image: url('/img/video-control-pause.svg');
+  background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-pause.svg');
 }
 .video-js button.vjs-play-control.vjs-paused > span.vjs-icon-placeholder::before {
   content: " " !important;
-  background-image: url('/img/video-control-play.svg');
+  background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-play.svg');
 }
 .video-js button.vjs-mute-control > span.vjs-icon-placeholder::before {
   content: " " !important;
-  background-image: url('/img/video-control-volume.svg');
+  background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-volume.svg');
 }
 .video-js button.vjs-fullscreen-control > span.vjs-icon-placeholder::before {
   content: " " !important;
-  background-image: url('/img/video-control-fullscreen.svg');
+  background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-fullscreen.svg');
 }
 .video-js .vjs-control-bar #backButton img,
 .video-js .vjs-control-bar #forwardButton img
@@ -111,10 +111,10 @@
   padding-left: var(--videojs-min-control-button-width);
 }
 .video-js .vjs-control-bar #backButton img {
-  background: url('/img/video-control-back.svg') left top no-repeat;
+  background: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-back.svg') left top no-repeat;
 }
 .video-js .vjs-control-bar #forwardButton img {
-  background: url('/img/video-control-forward.svg') left top no-repeat;
+  background: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-forward.svg') left top no-repeat;
 }
 /* Set height of control bar */
 .video-js.vjs-has-started .vjs-tech {
