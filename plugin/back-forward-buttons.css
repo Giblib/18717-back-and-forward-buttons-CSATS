@@ -331,7 +331,7 @@
 /** Hide Unused elements */
 .vjs-dock-text, 
 .vjs-chapters-button, 
-.video-js .vjs-chromecast-receiver-button, 
+.video-js .vjs-control-bar .vjs-chromecast-receiver-button, 
 .vjs-progress-control .vjs-play-progress.vjs-slider-bar .vjs-time-tooltip, 
 .vjs-remaining-time, 
 .video-js .vjs-picture-in-picture-control, 
