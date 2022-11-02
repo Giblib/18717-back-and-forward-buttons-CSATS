@@ -1,11 +1,11 @@
-#backButton img {
+.backButton img {
   margin-top: 6px;
   font-size: 1.9em;
   width: 1em;
   cursor: pointer;
   margin-right: 0.5em;
 }
-#forwardButton img {
+.forwardButton img {
   margin-top: 6px;
   font-size: 1.9em;
   width: 1em;
@@ -61,16 +61,16 @@
   transition: all 0s;
 }
 .video-js .vjs-icon-placeholder::before,
-.vjs-control-bar #backButton, .vjs-control-bar #forwardButton {
+.vjs-control-bar .backButton, .vjs-control-bar .forwardButton {
   fill: var(--video-skin-transparent-white);
   align-self: center;
 }
 .video-js .vjs-control-bar .vjs-control > span.vjs-icon-placeholder,
-.vjs-control-bar #backButton, .vjs-control-bar #forwardButton {
+.vjs-control-bar .backButton, .vjs-control-bar .forwardButton {
   filter: brightness(10000%) saturate(0);
 }
 .video-js .vjs-control-bar .vjs-control > span.vjs-icon-placeholder:hover,
-.vjs-control-bar #backButton:hover, .vjs-control-bar #forwardButton:hover {
+.vjs-control-bar .backButton:hover, .vjs-control-bar .forwardButton:hover {
   filter: saturate(1);
 }
 .video-js .vjs-control-bar .vjs-control > span.vjs-icon-placeholder::before {
@@ -82,7 +82,7 @@
   background-repeat: no-repeat;
 }
 .video-js button.vjs-control > span.vjs-icon-placeholder:hover::before,
-.video-js .vjs-control-bar #backButton:hover, .vjs-control-bar #forwardButton:hover {
+.video-js .vjs-control-bar .backButton:hover, .vjs-control-bar .forwardButton:hover {
   filter: none;
 }
 .video-js button.vjs-play-control.vjs-playing > span.vjs-icon-placeholder::before {
@@ -101,8 +101,8 @@
   content: " " !important;
   background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-fullscreen.svg');
 }
-.video-js .vjs-control-bar #backButton img,
-.video-js .vjs-control-bar #forwardButton img
+.video-js .vjs-control-bar .backButton img,
+.video-js .vjs-control-bar .forwardButton img
  {
   margin-right: 0px;
   width: var(--videojs-min-control-button-width);
@@ -110,10 +110,10 @@
   box-sizing: border-box;
   padding-left: var(--videojs-min-control-button-width);
 }
-.video-js .vjs-control-bar #backButton img {
+.video-js .vjs-control-bar .backButton img {
   background: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-back.svg') left top no-repeat;
 }
-.video-js .vjs-control-bar #forwardButton img {
+.video-js .vjs-control-bar .forwardButton img {
   background: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-forward.svg') left top no-repeat;
 }
 /* Set height of control bar */
@@ -177,21 +177,16 @@
   background-color: var(--video-skin-transparent-black);
   color: var(--video-skin-transparent-white);
 }
-.vjs-control-bar .vjs-progress-control         {order: 0;}
-.vjs-control-bar .vjs-step-selection-bar       {order: 1;}
-.vjs-control-bar #backButton                   {order: 2;}
-.vjs-control-bar .vjs-play-control             {order: 3;}
-.vjs-control-bar #forwardButton {order: 4;}
-.vjs-control-bar .vjs-playback-rate            {order: 5;}
-.vjs-control-bar .vjs-volume-panel             {order: 6;}
-.vjs-control-bar .vjs-subs-caps-button         {order: 7;}
+.vjs-control-bar .vjs-progress-control            {order: 0;}
+.vjs-control-bar .backButton                      {order: 2;}
+.vjs-control-bar .vjs-play-control                {order: 3;}
+.vjs-control-bar .forwardButton                   {order: 4;}
+.vjs-control-bar .vjs-playback-rate               {order: 5;}
+.vjs-control-bar .vjs-volume-panel                {order: 6;}
+.vjs-control-bar .vjs-subs-caps-button            {order: 7;}
 
-.vjs-control-bar:after                       {order: 9;}
-.vjs-control-bar .vjs-time-control             {order: 10;}
-.vjs-control-bar .vjs-download-button          {order: 11;}
-.vjs-control-bar .vjs-picture-in-picture-control { order: 12;}
-.vjs-control-bar .vjs-fullscreen-control       {order: 13;}
-.vjs-control-bar a[download]                   {order: 14;}
+.vjs-control-bar:after                            {order: 9;}
+.vjs-control-bar .vjs-time-control                {order: 10;}
 
 .vjs-control-bar  > .vjs-control:not(.vjs-progress-control):not(.vjs-time-control),
 .vjs-mute-control {
@@ -257,8 +252,8 @@
 .video-js .vjs-control-bar .vjs-progress-control .vjs-slider .vjs-time-tooltip {
   font-size: 14px;
 }
-.video-js:not(.vjs-has-started) #backButton, 
-.video-js:not(.vjs-has-started) #forwardButton {
+.video-js:not(.vjs-has-started) .backButton, 
+.video-js:not(.vjs-has-started) .forwardButton {
   display: none;
 }
 .video-js:not(.vjs-has-started) .vjs-control-bar {

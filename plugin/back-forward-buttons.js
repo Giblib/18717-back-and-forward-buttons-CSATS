@@ -13,6 +13,9 @@ videojs.registerPlugin('backForwardButtons', function() {
   newElementBB.id = 'backButton';
   newElementFB.id = 'forwardButton';
 
+  newElementBB.className = 'backButton';
+  newElementFB.className = 'forwardButton';
+
   // +++ Assign properties to elements and assign to parents +++
   newImageBB.setAttribute('src', 'https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/Backward_30-01.svg');
   newElementBB.appendChild(newImageBB);
