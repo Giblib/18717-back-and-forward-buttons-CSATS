@@ -146,7 +146,7 @@
 .bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
 .bc-player-lpOeeNOeT_default.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
 .bc-player-lpOeeNOeT_default.vjs-has-started.vjs-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control,
-.bc-player-lpOeeNOeT_default .vjs-mouse.bc-player-lpOeeNOeT_default .vjs-progress-control:hover,
+.vjs-mouse.bc-player-lpOeeNOeT_default .vjs-progress-control:hover,
 .bc-player-lpOeeNOeT_default .vjs-progress-control:hover,
 .bc-player-lpOeeNOeT_default:not():not(.not-hover) .vjs-progress-control,
 .bc-player-lpOeeNOeT_default:not(.not-hover) .vjs-progress-control {
@@ -333,6 +333,7 @@
 }
 .bc-player-lpOeeNOeT_default .vjs-control-bar .vjs-menu-button-popup .vjs-menu .vjs-menu-item:hover {
   background-color: var(--vjs-menu-item-hover-color);
+  color: var(--color-light-text);
   text-shadow: none;
 }
 /** Hide Unused elements */
