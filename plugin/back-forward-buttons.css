@@ -15,7 +15,7 @@
   --video-skin-transparent-white: rgba(255, 255, 255, 0.8);
   --video-skin-transparent-black: rgba(0, 0, 0, 0.4);
   --videojs-control-bar-height: 54px;
-  --videojs-control-button-height: calc(100% - var(--videojs-control-bar-height));
+  --videojs-control-button-height: var(--videojs-control-bar-height);
   --videojs-min-control-button-width: 32px;
   --videojs-max-control-button-width: 54px;
   --video-control-height: var(--videojs-control-bar-height);
