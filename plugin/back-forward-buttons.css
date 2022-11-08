@@ -125,31 +125,31 @@
   height: calc(100% - var(--video-control-height));
 }
 /* Keep Control bar from moving */
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-active
   .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive
   .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-active
   .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive
   .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
-.bc-player-lpOeeNOeT_default.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive
+.bc-player-lpOeeNOeT_default.video-js.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive
   .vjs-control-bar,
-.bc-player-lpOeeNOeT_default.vjs-has-started.vjs-playing.vjs-user-inactive
+.bc-player-lpOeeNOeT_default.video-js.vjs-has-started.vjs-playing.vjs-user-inactive
   .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible) {
   transform: none;
 }
 /* Keep Progress Bar from moving */
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active:not(.vjs-audio-only-mode) .vjs-progress-control, 
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active:not(.vjs-audio-only-mode) .vjs-progress-control, 
-.bc-player-lpOeeNOeT_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
-.bc-player-lpOeeNOeT_default.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
-.bc-player-lpOeeNOeT_default.vjs-has-started.vjs-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control,
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-active:not(.vjs-audio-only-mode) .vjs-progress-control, 
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-active:not(.vjs-audio-only-mode) .vjs-progress-control, 
+.bc-player-lpOeeNOeT_default.video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
+.bc-player-lpOeeNOeT_default.video-js.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control, 
+.bc-player-lpOeeNOeT_default.video-js.vjs-has-started.vjs-playing.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control,
 .vjs-mouse.video-js.bc-player-lpOeeNOeT_default .vjs-progress-control:hover,
-.bc-player-lpOeeNOeT_default .vjs-progress-control:hover,
-.bc-player-lpOeeNOeT_default:not():not(.not-hover) .vjs-progress-control,
-.bc-player-lpOeeNOeT_default:not(.not-hover) .vjs-progress-control {
+.bc-player-lpOeeNOeT_default.video-js .vjs-progress-control:hover,
+.bc-player-lpOeeNOeT_default.video-js:not():not(.not-hover) .vjs-progress-control,
+.bc-player-lpOeeNOeT_default.video-js:not(.not-hover) .vjs-progress-control {
   height: 0em;
   top: 0em;
 }
