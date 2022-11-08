@@ -84,23 +84,24 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.bc-player-lpOeeNOeT_default button.vjs-control > span.vjs-icon-placeholder:hover::before,
-.bc-player-lpOeeNOeT_default .vjs-control-bar .backButton:hover, .vjs-control-bar .forwardButton:hover {
+.bc-player-lpOeeNOeT_default .vjs-control-bar .vjs-control > span.vjs-icon-placeholder:hover::before,
+.bc-player-lpOeeNOeT_default .vjs-control-bar .backButton:hover, 
+.bc-player-lpOeeNOeT_default .vjs-control-bar .forwardButton:hover {
   filter: none;
 }
-.bc-player-lpOeeNOeT_default button.vjs-play-control.vjs-playing > span.vjs-icon-placeholder::before {
+.bc-player-lpOeeNOeT_default .vjs-control-bar .vjs-play-control.vjs-playing > span.vjs-icon-placeholder::before {
   content: " " !important;
   background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-pause.svg');
 }
-.bc-player-lpOeeNOeT_default button.vjs-play-control.vjs-paused > span.vjs-icon-placeholder::before {
+.bc-player-lpOeeNOeT_default .vjs-control-bar .vjs-play-control.vjs-paused > span.vjs-icon-placeholder::before {
   content: " " !important;
   background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-play.svg');
 }
-.bc-player-lpOeeNOeT_default button.vjs-mute-control > span.vjs-icon-placeholder::before {
+.bc-player-lpOeeNOeT_default .vjs-control-bar .vjs-mute-control > span.vjs-icon-placeholder::before {
   content: " " !important;
   background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-volume.svg');
 }
-.bc-player-lpOeeNOeT_default button.vjs-fullscreen-control > span.vjs-icon-placeholder::before {
+.bc-player-lpOeeNOeT_default .vjs-control-bar .vjs-fullscreen-control > span.vjs-icon-placeholder::before {
   content: " " !important;
   background-image: url('https://raw.githubusercontent.com/Giblib/18717-back-and-forward-buttons-CSATS/master/img/video-control-fullscreen.svg');
 }
