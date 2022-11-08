@@ -153,6 +153,11 @@
   height: 0em;
   top: 0em;
 }
+.vjs-mouse.bc-player-lpOeeNOeT_default .vjs-progress-control:hover {
+  height: 0em;
+  top: 0em;
+}
+
 /* Hide Progress Bar when not hovered on video */
 .bc-player-lpOeeNOeT_default.not-hover .vjs-progress-control {
   display: none;
