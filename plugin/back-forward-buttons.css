@@ -325,16 +325,19 @@
   width: 100%;
   min-width: fit-content;
 }
+.bc-player-lpOeeNOeT_default.video-js .vjs-control-bar .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected {
+  background-color: var(--color-white-background);
+  color: var(--color-default-text);
+}
+.bc-player-lpOeeNOeT_default.video-js .vjs-control-bar .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected:hover {
+  background-color: var(--color-white-background);
+  color: var(--color-default-text);
+}
 .bc-player-lpOeeNOeT_default.video-js .vjs-control-bar .vjs-menu-button-popup .vjs-menu .vjs-menu-item {
   background-color: var(--video-skin-transparent-black);
   color: var(--video-skin-transparent-white);
   margin: 0 0;
   border-radius: 0;
-}
-.bc-player-lpOeeNOeT_default.video-js .vjs-control-bar .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected, 
-.bc-player-lpOeeNOeT_default.video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected:hover {
-  background-color: var(--color-white-background);
-  color: var(--color-default-text);
 }
 .bc-player-lpOeeNOeT_default.video-js .vjs-control-bar .vjs-menu-button-popup .vjs-menu .vjs-menu-item:hover {
   background-color: var(--vjs-menu-item-hover-color);
